@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #25282f;
   overflow-x: hidden;
@@ -188,7 +192,6 @@ a {
   align-items: center;
   width: 370px;
   margin-bottom: 40px;
-  padding: 25px 20px;
 
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 12px;
@@ -208,11 +211,18 @@ a {
 }
 
 .header__link {
-  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 25px 20px;
 
   font-size: 24px;
   font-weight: 700;
   color: #a2ff00;
+}
+
+.header__link span {
+  margin-left: 20px;
 }
 
 .header__img {

@@ -17,8 +17,8 @@
             alt="logo"
           />
           <nav class="header__menu">
-            <a href="#" class="header__menu-link">В эфире</a>
-            <a href="#" class="header__menu-link">Плейлисты</a>
+            <a href="#translationLink" class="header__menu-link">В эфире</a>
+            <a href="#playlistLink" class="header__menu-link">Плейлисты</a>
             <a href="#" class="header__menu-link">Анонсы</a>
           </nav>
         </div>
@@ -37,25 +37,31 @@
 
           <ul class="header__link-container">
             <li class="header__link-item">
-              <img
-                src="https://static.tildacdn.com/tild3163-6632-4832-a638-303638323061/photo.svg"
-                alt="icon"
-              />
-              <a href="#" class="header__link">Прямой эфир</a>
+              <a href="#translationLink" class="header__link">
+                <img
+                  src="https://static.tildacdn.com/tild3163-6632-4832-a638-303638323061/photo.svg"
+                  alt="icon"
+                />
+                <span>Прямой эфир</span>
+              </a>
             </li>
             <li class="header__link-item">
-              <img
-                src="https://static.tildacdn.com/tild3934-3161-4530-b631-336132376434/photo.svg"
-                alt="icon"
-              />
-              <a href="#" class="header__link">Анонсы мероприятий</a>
+              <a href="#" class="header__link">
+                <img
+                  src="https://static.tildacdn.com/tild3934-3161-4530-b631-336132376434/photo.svg"
+                  alt="icon"
+                />
+                <span>Анонсы мероприятий</span>
+              </a>
             </li>
             <li class="header__link-item">
-              <img
-                src="https://static.tildacdn.com/tild6166-3433-4037-b539-653365386662/_1.svg"
-                alt="icon"
-              />
-              <a href="#" class="header__link">Плейлисты</a>
+              <a href="#playlistLink" class="header__link">
+                <img
+                  src="https://static.tildacdn.com/tild6166-3433-4037-b539-653365386662/_1.svg"
+                  alt="icon"
+                />
+                <span>Плейлисты</span>
+              </a>
             </li>
           </ul>
         </div>
@@ -74,7 +80,7 @@
     </header>
 
     <main>
-      <section class="translation">
+      <section id="translationLink" class="translation">
         <div class="container">
           <h2 class="title">Есть что посмотреть</h2>
           <p class="info">24/7 говорим о бизнесе, инновациях и технологиях</p>
@@ -136,7 +142,7 @@
         </div>
       </section>
 
-      <section class="playlist">
+      <section id="playlistLink" class="playlist">
         <div class="container">
           <h2 class="title">Плейлисты</h2>
           <p class="info">
